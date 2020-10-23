@@ -70,11 +70,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/traversy-react-crash-course-todo">
         <div className="App">
           <div className="container">
             <Header />
-            <Route exact path="/traversy-react-crash-course-todo" render={props => (
+            <Route exact path="/" render={props => (
               <React.Fragment>
                 <AddTodo addTodo={this.addTodo} />
                 <Todos
@@ -83,7 +83,7 @@ class App extends React.Component {
                   deleteTodo={this.deleteTodo} />
               </React.Fragment>
             )}/>
-            <Route path="/traversy-react-crash-course-todo/about" component={About} />
+            <Route path="/about/" component={About} />
           </div>
         </div>
       </Router>
