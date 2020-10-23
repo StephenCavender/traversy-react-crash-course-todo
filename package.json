@@ -2,7 +2,7 @@
   "name": "traversy-react-crash-course-todo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://stephencavender.github.io/traversy-react-crash-course-todo",
+  "homepage": "https://stephencavender.github.io/traversy-react-crash-course-todo",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
