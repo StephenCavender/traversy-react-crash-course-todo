@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/traversy-react-crash-course-todo/precache-manifest.192924cb5efe2608fa52f101a2625e04.js"
+  "/traversy-react-crash-course-todo/precache-manifest.41e91261550a0e1c6190f690007eb689.js"
 );
 
 self.addEventListener('message', (event) => {
