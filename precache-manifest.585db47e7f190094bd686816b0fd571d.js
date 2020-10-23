@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf0bc17501a3440ade3f70314e7af47f",
+    "revision": "221a5c7277dda52a2f456c1d39ab059e",
     "url": "/traversy-react-crash-course-todo/index.html"
   },
   {
-    "revision": "ad58f5e6bddbfff04037",
+    "revision": "8f367523eac466f2da65",
     "url": "/traversy-react-crash-course-todo/static/css/main.36fe29b4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/traversy-react-crash-course-todo/static/js/2.69dd7241.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad58f5e6bddbfff04037",
-    "url": "/traversy-react-crash-course-todo/static/js/main.6ecc468b.chunk.js"
+    "revision": "8f367523eac466f2da65",
+    "url": "/traversy-react-crash-course-todo/static/js/main.2d5eedf5.chunk.js"
   },
   {
     "revision": "a0a1608e83e1f03a4525",

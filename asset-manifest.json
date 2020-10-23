@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/traversy-react-crash-course-todo/static/css/main.36fe29b4.chunk.css",
-    "main.js": "/traversy-react-crash-course-todo/static/js/main.6ecc468b.chunk.js",
-    "main.js.map": "/traversy-react-crash-course-todo/static/js/main.6ecc468b.chunk.js.map",
+    "main.js": "/traversy-react-crash-course-todo/static/js/main.2d5eedf5.chunk.js",
+    "main.js.map": "/traversy-react-crash-course-todo/static/js/main.2d5eedf5.chunk.js.map",
     "runtime-main.js": "/traversy-react-crash-course-todo/static/js/runtime-main.90383629.js",
     "runtime-main.js.map": "/traversy-react-crash-course-todo/static/js/runtime-main.90383629.js.map",
     "static/js/2.69dd7241.chunk.js": "/traversy-react-crash-course-todo/static/js/2.69dd7241.chunk.js",
     "static/js/2.69dd7241.chunk.js.map": "/traversy-react-crash-course-todo/static/js/2.69dd7241.chunk.js.map",
     "index.html": "/traversy-react-crash-course-todo/index.html",
-    "precache-manifest.992cd25ada6e4234f2ce5fbb7470c6f1.js": "/traversy-react-crash-course-todo/precache-manifest.992cd25ada6e4234f2ce5fbb7470c6f1.js",
+    "precache-manifest.585db47e7f190094bd686816b0fd571d.js": "/traversy-react-crash-course-todo/precache-manifest.585db47e7f190094bd686816b0fd571d.js",
     "service-worker.js": "/traversy-react-crash-course-todo/service-worker.js",
     "static/css/main.36fe29b4.chunk.css.map": "/traversy-react-crash-course-todo/static/css/main.36fe29b4.chunk.css.map",
     "static/js/2.69dd7241.chunk.js.LICENSE.txt": "/traversy-react-crash-course-todo/static/js/2.69dd7241.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.90383629.js",
     "static/js/2.69dd7241.chunk.js",
     "static/css/main.36fe29b4.chunk.css",
-    "static/js/main.6ecc468b.chunk.js"
+    "static/js/main.2d5eedf5.chunk.js"
   ]
 }
