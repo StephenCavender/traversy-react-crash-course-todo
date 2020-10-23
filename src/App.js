@@ -4,30 +4,36 @@ import Header from './components/layout/Header';
 import Todos from './components/Todos';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
+import Axios from 'axios';
 
 import './App.css';
 
 class App extends React.Component {
   state = {
     todos: [
-      {
-        id: uuidv4(),
-        title: 'Take out trash',
-        completed: false
-      },
-      {
-        id: uuidv4(),
-        title: 'Dinner',
-        completed: false
-      },
-      {
-        id: uuidv4(),
-        title: 'Meeting',
-        completed: false
-      }
+      // {
+      //   id: uuidv4(),
+      //   title: 'Take out trash',
+      //   completed: false
+      // },
+      // {
+      //   id: uuidv4(),
+      //   title: 'Dinner',
+      //   completed: false
+      // },
+      // {
+      //   id: uuidv4(),
+      //   title: 'Meeting',
+      //   completed: false
+      // }
     ]
-  };
+  }
+
+  componentDidMount() {
+    Axios.get('https://jsonplaceholder.typicode.com/todos?_limit=10')
+      .then(res => this.setState( {todos: res.data }));
+  }
 
   toggleComplete = id => {
     this.setState({ todos: this.state.todos.map(todo => {
@@ -39,19 +45,27 @@ class App extends React.Component {
   }
 
   deleteTodo = id => {
-    this.setState({
-      todos: [...this.state.todos.filter(todo => todo.id !== id)]
-    })
+    Axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
+      .then(() => this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)]}));
+
+    // this.setState({
+    //   todos: [...this.state.todos.filter(todo => todo.id !== id)]
+    // });
   }
 
   addTodo = title => {
-    const newTodo = {
-      id: uuidv4(),
+    Axios.post('https://jsonplaceholder.typicode.com/todos', {
       title,
-      completed: false
-    };
+      complete: false
+    }).then(res => this.setState({ todos: [...this.state.todos, res.data]}));
 
-    this.setState({ todos: [...this.state.todos, newTodo]});
+    // const newTodo = {
+    //   id: uuidv4(),
+    //   title,
+    //   completed: false
+    // };
+
+    // this.setState({ todos: [...this.state.todos, newTodo]});
   }
 
   render() {
