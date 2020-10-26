@@ -1,5 +1,5 @@
 # traversy-react-crash-course-todo
-This repo is an app built following along with a React crash course: https://youtu.be/sBws8MSXN7A.
+This repo is an app built following along with [Traversy Media's React crash course](https://youtu.be/sBws8MSXN7A).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -42,7 +42,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `npm run deploy`
 
-Run's 'npm run build' above and then deploys the application to GitHub Pages at https://stephencavender.github.io/traversy-react-crash-course-todo/.
+Runs 'npm run build' above and then deploys the application to GitHub Pages at https://stephencavender.github.io/traversy-react-crash-course-todo/.
 
 ## Learn More
 
